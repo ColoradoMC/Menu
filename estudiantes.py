@@ -10,7 +10,7 @@ def agregar_estudiante():
         nota = float(input(f"Ingrese la nota del trabajo práctico {i+1}: "))
         notas_practicos.append(nota)
     
-    nota_final = float(input("Ingrese la nota final (desaprobación o aprobación): "))
+    nota_final = float(input("Ingrese la nota final (desaprobado o aprobado): "))
     promedio = sum(notas_practicos) / len(notas_practicos)
     
     estudiante = {

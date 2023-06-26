@@ -26,6 +26,7 @@ def agregar_estudiante():
     print("Estudiante agregado con éxito.")
 
 
+    
 def mostrar_aprobados_desaprobados():
     aprobados = []
     desaprobados = []
@@ -44,6 +45,8 @@ def mostrar_aprobados_desaprobados():
     print("\nEstudiantes desaprobados: ")
     for estudiante in desaprobados:
         print(f"{estudiante[0]} {estudiante[1]}")
+
+
 
 #Menu Principal
 opcion = ""
